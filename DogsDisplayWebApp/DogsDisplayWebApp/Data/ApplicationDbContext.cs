@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using DogsDisplayWebApp.Models;
 
 namespace DogsDisplayWebApp.Data
 {
@@ -15,5 +16,7 @@ namespace DogsDisplayWebApp.Data
             this.Database.EnsureCreated();
         }
         public DbSet<Dog> Dogs { get; set; }
+        public DbSet<DogsDisplayWebApp.Models.DogCreateViewModel> DogCreateViewModel { get; set; }
+        public DbSet<DogsDisplayWebApp.Models.DogDetailsViewModel> DogDetailsViewModel { get; set; }
     }
 }
