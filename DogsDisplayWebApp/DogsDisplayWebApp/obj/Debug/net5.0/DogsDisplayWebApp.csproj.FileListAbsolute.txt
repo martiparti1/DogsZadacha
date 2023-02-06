@@ -839,3 +839,4 @@ C:\Users\Student\Documents\martiparti\DogsZadacha\DogsZadacha\DogsDisplayWebApp\
 C:\Users\Student\Documents\martiparti\DogsZadacha\DogsZadacha\DogsDisplayWebApp\DogsDisplayWebApp\obj\Debug\net5.0\Razor\Views\Dogs\Edit.cshtml.g.cs
 C:\Users\Student\Documents\martiparti\DogsZadacha\DogsZadacha\DogsDisplayWebApp\DogsDisplayWebApp\obj\Debug\net5.0\Razor\Views\Dogs\Delete.cshtml.g.cs
 C:\Users\Student\Documents\martiparti\DogsZadacha\DogsZadacha\DogsDisplayWebApp\DogsDisplayWebApp\obj\Debug\net5.0\Razor\Views\Dogs\Details.cshtml.g.cs
+C:\Users\Student\Documents\martiparti\DogsZadacha\DogsZadacha\DogsDisplayWebApp\DogsDisplayWebApp\obj\Debug\net5.0\Razor\Views\Dogs\Sort.cshtml.g.cs
