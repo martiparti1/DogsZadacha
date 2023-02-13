@@ -1,4 +1,6 @@
+using DogsDisplayWebApp.Abstractions;
 using DogsDisplayWebApp.Data;
+using DogsDisplayWebApp.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,6 +37,8 @@ namespace DogsDisplayWebApp
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
+            services.AddTransient<IDogService, DogService>();
+
             services.AddRazorPages();
             services.Configure<IdentityOptions>(option =>
             {
